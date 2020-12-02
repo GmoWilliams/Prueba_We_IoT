@@ -1,9 +1,9 @@
 <?php
     // Database credentials
-    $servername = "den1.mysql1.gear.host";
-    $username   = "datasensor";
-    $password   = "Zr6l8~0I4?Hx";
-    $dbname     = "datasensor";
+    $servername = "den1.mysql5.gear.host";
+    $username   = "databasemysqliot";
+    $password   = "Fc6t7o_30-0Q";
+    $dbname     = "databasemysqliot";
     $tbname     = "potentiometers";
 
     // Create database connection
