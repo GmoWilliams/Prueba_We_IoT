@@ -91,7 +91,7 @@ $.ajax(
                 {
                     // Add new record to chart
                     addData(myChart3, sensorTime, sensor1Data);
-                    gauge.set(sensor2Data); // set actual value
+                    gauge3.set(sensor2Data); // set actual value
                 }
     
             },
