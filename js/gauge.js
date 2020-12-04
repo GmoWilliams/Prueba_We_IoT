@@ -4,8 +4,8 @@ var opts = {
   radiusScale: 1, // Relative radius
   pointer: {
     length: 0.6, // // Relative to gauge radius
-    strokeWidth: 0.035, // The thickness
-    color: '#000000' // Fill color
+    strokeWidth: 0.025, // The thickness
+    color: '#b58a45' // Fill color
   },
   staticLabels: {
       font: "10px sans-serif",  // Specifies font
@@ -20,7 +20,7 @@ var opts = {
   strokeColor: '#E0E0E0',  // to see which ones work best for you
   generateGradient: true,
   highDpiSupport: true,     // High resolution support
-  percentColors: [[0.0, "#a9d70b" ], [50, "#f9c802"], [80, "#ff0000"]]   // Make color react according to the position of the needle
+  percentColors: [[0.0, "#0ee827" ], [50, "#e8dd0e"], [80, "#9e213e"]]   // Make color react according to the position of the needle
   
 };
 

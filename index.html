@@ -3,21 +3,20 @@
     <head>
         <title>My application</title>
     </head>
-
+    <style>
+        .tab{
+            display: inline-block;
+            margin-left: 300px;
+        }
+    </style>
     <body>
-        <h1>Sensor 1</h1>
+        <h1 style="color: green">Sensor 1  <span class="tab"></span> Sensor 2  <span class="tab"></span>Sensor 3</h1>
         <div>
-            <canvas id="myGauge1" width="1000" height="500"></canvas>
-        </div>
-
-        <h1>Sensor 2</h1>
-        <div>
-            <canvas id="myGauge2" width="1000" height="500"></canvas>
-        </div>
-
-        <h1>Sensor 3</h1>
-        <div>
-            <canvas id="myGauge3" width="1000" height="500"></canvas>
+            <canvas id="myGauge1" width="420" height="250"></canvas>
+            <!--&nbsp;&nbsp;&nbsp; -->
+            <canvas id="myGauge2" width="420" height="250"></canvas>
+            <!--&nbsp;&nbsp;&nbsp; -->
+            <canvas id="myGauge3" width="420" height="250"></canvas>
         </div>
 
         <div>
