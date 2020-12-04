@@ -56,7 +56,7 @@ $.ajax(
                 // Add data to chart
                 addData(myChart3, sensorTime, sensor1Data);
             }
-            gauge.set(sensor2Data); // set value of the gauge to the last value of sensor2Value
+            gauge3.set(sensor2Data); // set value of the gauge to the last value of sensor2Value
         },
         error: function() {
           console.log('There was some error performing the AJAX call!');
